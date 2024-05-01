@@ -61,6 +61,8 @@ fair enough ...
 - omitted platform icons on the sidebar (`SIDEBAR_PLATFORM_ICON`)
 - aligned your own messages to the right
 - made primary color (`--color-primary`) green `rgb(100, 255, 100)` (feel free to change it)
+- hide 'instagram user is in quiet mode' action (`CHAT_HIDE_IG_USER_IN_QUIET_MODE_ACTION`)
+- hide 'user joined group' action (`CHAT_HIDE_USER_JOINED_ROOM_ACTION`)
 # 😔 known regressions
 - side bar width became fixed and can't be resized from ui
 - pinned chats became clunky, i'd avoid using it (let's do something about it later)
