@@ -44,7 +44,10 @@ div.linked-sender-name,
 /* CHAT_HIDE_REELS_OR_SIMILAR */
 div.message-container:has(> div > div > div > main > div.message-attachments-container):has(> div > div > div > main > div.message-footer),
 div.message-container:not(.hasSenderHash) div.message img.participant-img,
+/* CHAT_HIDE_IG_USER_IN_QUIET_MODE_ACTION */
 div.message-container.type-action:not(.hasSenderHash),
+/* CHAT_HIDE_USER_JOINED_ROOM_ACTION */
+div.message-container.type-action:has(> div > div > div > main > div > div > div > span.user-mention),
 div.message-icons,
 div.message-link,
 div.message-seen-by,
