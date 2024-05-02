@@ -63,6 +63,8 @@ div.typing-participants,
 div.unread-divider,
 /* SIDEBAR_PLATFORM_ICON */
 div.threads img.platform-icon,
+/* CHAT_MESSAGE_EDITED_LABEL */
+div.message-footer.message-edited-label,
 span.tooltip-wrapper {
   display: none;
 }
