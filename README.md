@@ -60,6 +60,7 @@ fair enough ...
 - ✅ truncate linked messages to one liner
 - ✅ hide 'edited xm ago' labels on messages (`CHAT_MESSAGE_EDITED_LABEL`)
 ### 🤷🏻‍♂️ others
+- using roboto font 🤖
 - completely omitted reels or related content (`CHAT_HIDE_REELS_OR_SIMILAR`)
 - omitted platform icons on the sidebar (`SIDEBAR_PLATFORM_ICON`)
 - aligned your own messages to the right
