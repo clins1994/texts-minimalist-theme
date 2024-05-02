@@ -38,6 +38,7 @@ fair enough ...
 👉🏼 click 'reload css' button and your theme should now be applied.
 
 # 🫰🏼 features
+ℹ️ if you'd like to disable some features i've left a tag, such as `SIDEBAR_PLATFORM_ICON` for hiding platform icons on the sidebar, next to the feature so you can easily find it in the css and comment it out. not every feature has this at the moment. if you're having trouble disabling a specific feature, please submit an issue and i'll have a look for you.
 ### ⬅️ side bar
 - ✅ hide all, unread, archive tabs
 - ✅ hide time stamps in each message
@@ -56,6 +57,8 @@ fair enough ...
 - ✅ hide message reply sender names 
 - ✅ hide scroll bar
 - ✅ hide 'user is typing' notice
+- ✅ truncate linked messages to one liner
+- ✅ hide 'edited xm ago' labels on messages (`CHAT_MESSAGE_EDITED_LABEL`)
 ### 🤷🏻‍♂️ others
 - completely omitted reels or related content (`CHAT_HIDE_REELS_OR_SIMILAR`)
 - omitted platform icons on the sidebar (`SIDEBAR_PLATFORM_ICON`)

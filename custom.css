@@ -16,6 +16,7 @@ To open dev tools, open the command bar and type "open console"
   --color-primary-rgb: 0, 0, 0;
   --left-pane-bg: var(--color-bg);
   --color-background-app: var(--color-bg);
+  --linked-message-width: 400px;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -63,6 +64,8 @@ div.typing-participants,
 div.unread-divider,
 /* SIDEBAR_PLATFORM_ICON */
 div.threads img.platform-icon,
+/* CHAT_MESSAGE_EDITED_LABEL */
+div.message-footer.message-edited-label,
 span.tooltip-wrapper {
   display: none;
 }
@@ -161,6 +164,14 @@ div.message-spacer {
 /* decrease horizontal padding for message replies */
 div.linked-message-content {
   padding: 0;
+}
+
+/* truncate and decrease height of linked message */
+div.linked-message-content .msg-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: var(--linked-message-width);
 }
 
 div.linked-message {
